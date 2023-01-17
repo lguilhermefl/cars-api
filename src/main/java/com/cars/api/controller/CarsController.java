@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/cars")
-public class CarsControllers {
+public class CarsController {
 
     @PostMapping
     public void create(@RequestBody String req) {
