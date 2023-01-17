@@ -14,5 +14,7 @@ public class CarsController {
     @PostMapping
     public void create(@RequestBody CarDTO req) {
         System.out.println(req);
+        System.out.println(req.modelo());
+        System.out.println(req.valor());
     }
 }
